@@ -15,9 +15,24 @@ targets:
     sources:
       - path: Sources/Note
         includes:
-          - "*.swift"
+          - "**/*.swift"
+      - path: Sources/proto
+        includes:
+          - "**/*.swift"
     settings:
       INFOPLIST_FILE: Sources/Note/Info.plist
+    dependencies:
+      - carthage: RxSwift
+      - carthage: RxCocoa
+      - carthage: RxRelay
+      - carthage: Router
+      - carthage: ViewDSL
+      - carthage: FlexLayout
+      - carthage: Material
+      - carthage: Motion
+      - carthage: JGProgressHUD
+      - carthage: IQKeyboardManager
+      - carthage: SwiftProtobuf
   NoteTests:
     type: bundle.unit-test
     platform: iOS
