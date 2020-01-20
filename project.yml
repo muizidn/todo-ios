@@ -1,0 +1,27 @@
+name: Note
+configFiles:
+  Debug: temp/Debug.xconfig
+  Release: temp/Release.xconfig
+options:
+  usesTabs: false
+  indentWidth: 2
+  tabWidth: 2
+  deploymentTarget:
+    iOS: 10.0
+targets:
+  Note:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources/Note
+        includes:
+          - "*.swift"
+    settings:
+      INFOPLIST_FILE: Sources/Note/Info.plist
+  NoteTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests/NoteTests
+        includes:
+          - "*.swift"
