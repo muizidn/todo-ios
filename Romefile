@@ -2,11 +2,25 @@ cache:
  local: ~/Documents/Carthage
 
 repositoryMap:
-  - note-deps:
-    - name: SwiftGRPC
-    - name: openssl_grpc # BoringSSL-GRPC
-    - name: nanopb
-    - name: grpc # gRPC-Core
+  - grpc-swift:
+    - name: GRPC
+    - name: CNIOAtomics
+    - name: CNIOBoringSSL
+    - name: CNIOBoringSSLShims
+    - name: CNIODarwin
+    - name: CNIOHTTPParser
+    - name: CNIOLinux
+    - name: CNIOSHA1
+    - name: Logging
+    - name: NIO
+    - name: NIOConcurrencyHelpers
+    - name: NIOFoundationCompat
+    - name: NIOHPACK
+    - name: NIOHTTP1
+    - name: NIOHTTP2
+    - name: NIOSSL
+    - name: NIOTLS
+    - name: NIOTransportServices
     - name: SwiftProtobuf
   - RxSwift:
     - name: RxSwift

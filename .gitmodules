@@ -1,0 +1,3 @@
+[submodule "note-proto"]
+	path = note-proto
+	url = https://github.com/muizidn/note-proto.git

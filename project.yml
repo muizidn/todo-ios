@@ -16,24 +16,46 @@ targets:
       - path: Sources/Note
         includes:
           - "**/*.swift"
+      - path: note-proto
+        includes:
+          - "**/*.swift"
     settings:
       INFOPLIST_FILE: Sources/Note/Info.plist
     dependencies:
+      # RxCocoa
       - carthage: RxSwift
       - carthage: RxCocoa
       - carthage: RxRelay
+
       - carthage: Router
       - carthage: ViewDSL
       - carthage: FlexLayout
+      # Material
       - carthage: Material
       - carthage: Motion
+
       - carthage: JGProgressHUD
       - carthage: IQKeyboardManager
+      # GRPC
+      - carthage: GRPC
+      - carthage: CNIOAtomics
+      - carthage: CNIOBoringSSL
+      - carthage: CNIOBoringSSLShims
+      - carthage: CNIODarwin
+      - carthage: CNIOHTTPParser
+      - carthage: CNIOLinux
+      - carthage: CNIOSHA1
+      - carthage: Logging
+      - carthage: NIO
+      - carthage: NIOConcurrencyHelpers
+      - carthage: NIOFoundationCompat
+      - carthage: NIOHPACK
+      - carthage: NIOHTTP1
+      - carthage: NIOHTTP2
+      - carthage: NIOSSL
+      - carthage: NIOTLS
+      - carthage: NIOTransportServices
       - carthage: SwiftProtobuf
-      - carthage: SwiftGRPC
-      - carthage: openssl_grpc
-      - carthage: nanopb
-      - carthage: grpc
   NoteTests:
     type: bundle.unit-test
     platform: iOS

@@ -12,3 +12,19 @@ task :install_xctemplate do
   puts "Done!"
   puts "Happy coding!"
 end
+
+task :gen_proto do
+  # requires absolute path
+  `
+  protoc proto/*.proto \
+		--proto_path=proto/ \
+		--plugin=$(which protoc-gen-swift) \
+		--swift_opt=Visibility=Public \
+		--swift_out=proto/gen
+  protoc proto/*.proto \
+		--proto_path=proto/ \
+		--plugin=$(which protoc-gen-grpc-swift) \
+		--grpc-swift_opt=Visibility=Public \
+		--grpc-swift_out=proto/gen
+  `
+end

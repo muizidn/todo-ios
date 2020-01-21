@@ -8,7 +8,8 @@
 import Foundation
 import RxSwift
 import RxCocoa
-import SwiftProtobuf
+import GRPC
+import NIO
 
 final class NotesViewModel: ViewModelType {
   let input: Input
@@ -35,16 +36,34 @@ final class NotesViewModel: ViewModelType {
     )
     
     let item = sLoad
-//      .flatMapLatest({
-////        URLSession.init(configuration: .ephemeral)
-////          .rx.data(request: URLRequest.init(url: URL(string: "http://127.0.0.1:5000/currentUser")!))
-////          .map({ data in Result<Contact, Error>(
-////            catching: { try Contact.init(serializedData: data) }) })
-////          .debug("reply", trimOutput: false)
-////          .trackError(errorTracker)
-////          .trackActivity(activityIndicator)
-////          .catchErrorJustCompleted()
-//      })
+      .flatMapLatest({
+        Observable<String>.create { (o) in
+          let group = MultiThreadedEventLoopGroup(numberOfThreads: 1)
+          let config = ClientConnection.Configuration(
+            target: .hostAndPort("localhost", 50051),
+            eventLoopGroup: group
+          )
+          
+          let conn = ClientConnection(configuration: config)
+          let client = Helloworld_GreeterServiceClient.init(connection: conn)
+          let call = client.sayHello(.with({
+            $0.name = "Muis"
+          }))
+          call.response.whenComplete { (res) in
+            switch res {
+            case .success(let resp):
+              o.onNext(resp.message)
+              o.onCompleted()
+            case .failure(let err):
+              o.onError(err)
+            }
+          }
+          return Disposables.create()
+        }
+        .trackError(errorTracker)
+        .trackActivity(activityIndicator)
+        .catchErrorJustCompleted()
+      })
     
     let action = Observable<Void>.merge(
       item.mapToVoid()
