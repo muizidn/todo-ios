@@ -35,16 +35,16 @@ final class NotesViewModel: ViewModelType {
     )
     
     let item = sLoad
-      .flatMapLatest({
-        URLSession.init(configuration: .ephemeral)
-          .rx.data(request: URLRequest.init(url: URL(string: "http://127.0.0.1:5000/currentUser")!))
-          .map({ data in Result<Contact, Error>(
-            catching: { try Contact.init(serializedData: data) }) })
-          .debug("reply", trimOutput: false)
-          .trackError(errorTracker)
-          .trackActivity(activityIndicator)
-          .catchErrorJustCompleted()
-      })
+//      .flatMapLatest({
+////        URLSession.init(configuration: .ephemeral)
+////          .rx.data(request: URLRequest.init(url: URL(string: "http://127.0.0.1:5000/currentUser")!))
+////          .map({ data in Result<Contact, Error>(
+////            catching: { try Contact.init(serializedData: data) }) })
+////          .debug("reply", trimOutput: false)
+////          .trackError(errorTracker)
+////          .trackActivity(activityIndicator)
+////          .catchErrorJustCompleted()
+//      })
     
     let action = Observable<Void>.merge(
       item.mapToVoid()

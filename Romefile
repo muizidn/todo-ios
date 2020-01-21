@@ -2,10 +2,14 @@ cache:
  local: ~/Documents/Carthage
 
 repositoryMap:
+  - note-deps:
+    - name: SwiftGRPC
+    - name: openssl_grpc # BoringSSL-GRPC
+    - name: nanopb
+    - name: grpc # gRPC-Core
+    - name: SwiftProtobuf
   - RxSwift:
     - name: RxSwift
     - name: RxRelay
     - name: RxCocoa
     - name: RxBlocking
-  - swift-protobuf:
-    - name: SwiftProtobuf
