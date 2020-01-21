@@ -30,6 +30,10 @@ targets:
       - carthage: JGProgressHUD
       - carthage: IQKeyboardManager
       - carthage: SwiftProtobuf
+      - carthage: SwiftGRPC
+      - carthage: openssl_grpc
+      - carthage: nanopb
+      - carthage: grpc
   NoteTests:
     type: bundle.unit-test
     platform: iOS
