@@ -1,4 +1,4 @@
-name: Note
+name: Todo
 configFiles:
   Debug: temp/Debug.xconfig
   Release: temp/Release.xconfig
@@ -9,18 +9,19 @@ options:
   deploymentTarget:
     iOS: 10.0
 targets:
-  Note:
+  Todo:
     type: application
     platform: iOS
     sources:
-      - path: Sources/Note
+      - path: Sources/Todo
         includes:
-          - "**/*.swift"
-      - path: note-proto
+          - "App/*.swift"
+          - "*.swift"
+      - path: pb
         includes:
           - "**/*.swift"
     settings:
-      INFOPLIST_FILE: Sources/Note/Info.plist
+      INFOPLIST_FILE: Sources/Todo/Info.plist
     dependencies:
       # RxCocoa
       - carthage: RxSwift
@@ -56,10 +57,10 @@ targets:
       - carthage: NIOTLS
       - carthage: NIOTransportServices
       - carthage: SwiftProtobuf
-  NoteTests:
+  TodoTests:
     type: bundle.unit-test
     platform: iOS
     sources:
-      - path: Tests/NoteTests
+      - path: Tests/TodoTests
         includes:
           - "*.swift"
