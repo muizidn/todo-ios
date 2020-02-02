@@ -1,0 +1,2 @@
+[custom]
+    config_swift_compiler_flags = -DDEBUG

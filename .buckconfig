@@ -1,0 +1,21 @@
+[cxx]
+  default_platform = iphonesimulator-x86_64
+
+[swift]
+  version = 5
+  compiler_flags = -whole-module-optimization $(config custom.config_swift_compiler_flags)
+  use_filelist = true
+ 
+[apple]
+  iphonesimulator_target_sdk_version = 10.0
+  iphoneos_target_sdk_version = 10.0
+
+[build]
+  threads = 4
+
+[project]
+  ide_force_kill = always
+  project_schemes = true
+  ide = xcode
+  allow_symlinks = forbid
+  ignore = .git, \

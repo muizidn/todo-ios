@@ -1,0 +1,189 @@
+prebuilt_apple_framework(name='RxSwift',
+                         framework='Build/iOS/RxSwift.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='RxCocoa',
+                         framework='Build/iOS/RxCocoa.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='RxRelay',
+                         framework='Build/iOS/RxRelay.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='Router',
+                         framework='Build/iOS/Router.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='ViewDSL',
+                         framework='Build/iOS/ViewDSL.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='FlexLayout',
+                         framework='Build/iOS/FlexLayout.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='Material',
+                         framework='Build/iOS/Material.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='Motion',
+                         framework='Build/iOS/Motion.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='JGProgressHUD',
+                         framework='Build/iOS/JGProgressHUD.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='IQKeyboardManager',
+                         framework='Build/iOS/IQKeyboardManager.framework'
+                         , preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='GRPC',
+                         framework='Build/iOS/GRPC.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='CNIOAtomics',
+                         framework='Build/iOS/CNIOAtomics.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='CNIOBoringSSL',
+                         framework='Build/iOS/CNIOBoringSSL.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='CNIOBoringSSLShims',
+                         framework='Build/iOS/CNIOBoringSSLShims.framework'
+                         , preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='CNIODarwin',
+                         framework='Build/iOS/CNIODarwin.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='CNIOHTTPParser',
+                         framework='Build/iOS/CNIOHTTPParser.framework'
+                         , preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='CNIOLinux',
+                         framework='Build/iOS/CNIOLinux.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='CNIOSHA1',
+                         framework='Build/iOS/CNIOSHA1.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='Logging',
+                         framework='Build/iOS/Logging.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='NIO', framework='Build/iOS/NIO.framework'
+                         , preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='NIOConcurrencyHelpers',
+                         framework='Build/iOS/NIOConcurrencyHelpers.framework'
+                         , preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='NIOFoundationCompat',
+                         framework='Build/iOS/NIOFoundationCompat.framework'
+                         , preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='NIOHPACK',
+                         framework='Build/iOS/NIOHPACK.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='NIOHTTP1',
+                         framework='Build/iOS/NIOHTTP1.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='NIOHTTP2',
+                         framework='Build/iOS/NIOHTTP2.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='NIOSSL',
+                         framework='Build/iOS/NIOSSL.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='NIOTLS',
+                         framework='Build/iOS/NIOTLS.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='NIOTransportServices',
+                         framework='Build/iOS/NIOTransportServices.framework'
+                         , preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_apple_framework(name='SwiftProtobuf',
+                         framework='Build/iOS/SwiftProtobuf.framework',
+                         preferred_linkage='static',
+                         visibility=['PUBLIC'])
+
+prebuilt_frameworks = [
+  '//Carthage:RxSwift',
+  '//Carthage:RxCocoa',
+  '//Carthage:RxRelay',
+  '//Carthage:Router',
+  '//Carthage:ViewDSL',
+  '//Carthage:FlexLayout',
+  '//Carthage:Material',
+  '//Carthage:Motion',
+  '//Carthage:JGProgressHUD',
+  '//Carthage:IQKeyboardManager',
+  '//Carthage:GRPC',
+  '//Carthage:CNIOAtomics',
+  '//Carthage:CNIOBoringSSL',
+  '//Carthage:CNIOBoringSSLShims',
+  '//Carthage:CNIODarwin',
+  '//Carthage:CNIOHTTPParser',
+  '//Carthage:CNIOLinux',
+  '//Carthage:CNIOSHA1',
+  '//Carthage:Logging',
+  '//Carthage:NIO',
+  '//Carthage:NIOConcurrencyHelpers',
+  '//Carthage:NIOFoundationCompat',
+  '//Carthage:NIOHPACK',
+  '//Carthage:NIOHTTP1',
+  '//Carthage:NIOHTTP2',
+  '//Carthage:NIOSSL',
+  '//Carthage:NIOTLS',
+  '//Carthage:NIOTransportServices',
+  '//Carthage:SwiftProtobuf',
+]
+
+# Every BUCK file needs at least one library with source.
+apple_library(
+        name = "CarthageDeps",
+        visibility = [
+            "PUBLIC"
+        ],
+        swift_version = "5",
+        configs = {},
+        srcs = glob([
+            # "BuckSupportFiles/**/*.swift",
+        ]),
+        deps = prebuilt_frameworks
+)
