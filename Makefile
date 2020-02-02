@@ -8,15 +8,15 @@ protogen:
 	mv ${proto_dir}/proto/*.swift ${proto_gen_dir}
 
 build_debug:
-	buck build //:TodoApp --config-file Configs/Debug.buckconfig
+	buck build //:TodoApp
 
 build_release:
-	buck build //:TodoApp --config-file Configs/Release.buckconfig
+	buck build //:TodoApp#iphoneos-armv7
 
 clean:
 	buck clean
 
 project: clean
 	rm -rf **/*.{xcworkspace,xcodeproj}
-	buck project //:Workspace --config-file Configs/Debug.buckconfig
+	buck project //:Workspace
 	open Todo.xcworkspace

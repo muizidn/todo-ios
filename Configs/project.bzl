@@ -1,3 +1,9 @@
+def xclist(*args):
+    configs = ""
+    for arg in args:
+        configs = configs + " %s" % arg
+    return configs
+
 _configs = {
     # Plist
     "DEVELOPMENT_TEAM" : 'SDSLU2QT5X',
@@ -20,14 +26,14 @@ _configs = {
     "DEVELOPMENT_LANGUAGE": "en",
     "SWIFT_OPTIMIZATION_LEVEL": "-Onone",
     "OTHER_LDFLAGS": "$(inherited) -all_load",
-    "OTHER_SWIFT_FLAGS": "$(inherited) -DHELLO"
+    "OTHER_SWIFT_FLAGS": xclist("$(inherited)", "-whole-module-optimization")
 }
 
 def config(key):
     return _configs[key]
 
-def get(key):
-    return { key : _configs[key] }
+def get(key, *strings):
+    return { key : _configs[key] + xclist(*strings) }
 
 # https://stackoverflow.com/a/26853961
 def merge(*dict_args):
@@ -47,7 +53,7 @@ def project_configs():
         get("IPHONEOS_DEPLOYMENT_TARGET"),
         get("APP_BUILD_VERSION"),
         get("APP_BUILD_NUMBER"),
-        get("OTHER_SWIFT_FLAGS")
+        get("OTHER_SWIFT_FLAGS", "-DDEBUG")
     )
     profile = merge(
     )

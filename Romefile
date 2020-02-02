@@ -28,3 +28,5 @@ repositoryMap:
     - name: RxRelay
     - name: RxCocoa
     - name: RxBlocking
+  - texture:
+    - name: AsyncDisplayKit

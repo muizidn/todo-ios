@@ -6,9 +6,9 @@ final class ServiceBackend: ConnectivityStateDelegate {
     static let shared = ServiceBackend()
     private init() {}
     #if DEBUG
-    private var host = "localhost"
+    private let host = "localhost"
     #else
-    #error("set this!")
+    private let host = "localhost"
     #endif
     private(set) lazy var connection: ClientConnection = {
         let group = MultiThreadedEventLoopGroup(numberOfThreads: 1)

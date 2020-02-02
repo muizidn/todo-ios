@@ -5,7 +5,6 @@
 //  Created by Muis on 20/01/20.
 //
 
-import UIKit
 import RxCocoa
 
 class BaseController<ViewModel>: UIViewController {
