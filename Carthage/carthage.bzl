@@ -5,8 +5,8 @@ def combined_deps(name,frameworks):
     for framework in frameworks:
         native.prebuilt_apple_framework(name=framework,
                             framework="Build/iOS/%s.framework" % framework,
-                            preferred_linkage='static',
-                            visibility=['PUBLIC'])
+                            preferred_linkage="shared",
+                            visibility=["PUBLIC"])
         prebuilt_apple_frameworks.append("//Carthage:%s" % framework)
     
     _frameworks[name] = prebuilt_apple_frameworks

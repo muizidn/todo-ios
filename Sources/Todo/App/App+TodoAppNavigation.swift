@@ -49,6 +49,6 @@ final class TodoAppNavigation: MyAppNavigation<TodoNavigation> {
     window.makeKeyAndVisible()
     
     Router.default.setupAppNavigation(appNavigation: self)
-    navigate(to: .todos, from: uiNav)
+    navigate(to: .initial, from: uiNav)
   }
 }

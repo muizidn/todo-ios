@@ -11,12 +11,11 @@ build_debug:
 	buck build //:TodoApp
 
 build_release:
-	buck build //:TodoApp#iphoneos-armv7
+	buck build //:TodoApp#iphoneos-arm64
 
 clean:
-	buck clean
+	rm -rf **/*.{xcworkspace,xcodeproj}
 
 project: clean
-	rm -rf **/*.{xcworkspace,xcodeproj}
 	buck project //:Workspace
-	open Todo.xcworkspace
+	open TodoApp.xcworkspace

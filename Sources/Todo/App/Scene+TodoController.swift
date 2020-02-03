@@ -9,47 +9,51 @@ import AsyncDisplayKit
 import RxSwift
 import RxCocoa
 import Material
+
+final class TodoXibController: UIViewController, InterfaceBuilderController {}
+final class TodoController: XibBaseController<TodoXibController> {
+    var viewModel: TodoViewModel!
+    private let disposeBag = DisposeBag()
     
-final class TodoController: BaseController<TodoViewModel> {
-  private let disposeBag = DisposeBag()
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    view.backgroundColor = .white
-    layoutNavBar()
-    layoutUI()
-    startBind()
-  }
-  
-  // MARK: Navbar
-  
-  private func layoutNavBar() {
-    navigationItem.configure { (n) in
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .white
+        layoutNavBar()
+        layoutUI()
+        startBind()
     }
-  }
-  
-  // MARK: UI
-  
-  private func layoutUI() {
-  }
-  
-  // MARK: Binding
-  
-  private func startBind() {
-    viewModel.output.action
-      .drive()
-      .disposed(by: disposeBag)
     
-    viewModel.output.error
-      .map({ HUDType.error($0.localizedDescription) })
-      .drive(hudBinder)
-      .disposed(by: disposeBag)
+    // MARK: Navbar
     
-    viewModel.output.activity
-      .map({ HUDType.progress($0) })
-      .drive(hudBinder)
-      .disposed(by: disposeBag)
+    private func layoutNavBar() {
+        navigationController?.isNavigationBarHidden = true
+        navigationItem.configure { (n) in
+            
+        }
+    }
     
-    viewModel.input.load.onNext(())
-  }
+    // MARK: UI
+    
+    override func layoutUI() {
+    }
+    
+    // MARK: Binding
+    
+    private func startBind() {
+        viewModel.output.action
+            .drive()
+            .disposed(by: disposeBag)
+        
+        viewModel.output.error
+            .map({ HUDType.error($0.localizedDescription) })
+            .drive(hudBinder)
+            .disposed(by: disposeBag)
+        
+        viewModel.output.activity
+            .map({ HUDType.progress($0) })
+            .drive(hudBinder)
+            .disposed(by: disposeBag)
+        
+        viewModel.input.load.onNext(())
+    }
 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public final class VStack: FlexView {
+public class VStack: UIView {
     @objc
     override func flexWith(_ parent: FastFlex) {
         parent.flex

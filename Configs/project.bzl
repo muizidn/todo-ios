@@ -9,14 +9,14 @@ _configs = {
     "DEVELOPMENT_TEAM" : 'SDSLU2QT5X',
     "BUNDLE_PREFIX" : 'com.muiz.idn',
     "PRODUCT_BUNDLE_IDENTIFIER" : 'com.muiz.idn.todo.ios',
-    "PRODUCT_NAME" : 'Todo',
+    "PRODUCT_NAME" : 'TodoApp',
     "KEYCHAIN_GROUP" : 'SDSLU2QT5X.com.muiz.idn.todo.ios',
     "APP_BUILD_VERSION" : '1.0',
     "APP_BUILD_NUMBER" : '1',
     # Buck
     "INFOPLIST_FILE": "Sources/Todo/Info.plist",
     # Xcode Configs
-    "IPHONEOS_DEPLOYMENT_TARGET": "11.0",
+    "IPHONEOS_DEPLOYMENT_TARGET": "%s" % native.read_config("apple", "iphoneos_target_sdk_version"),
     "SDKROOT": "iphoneos",
     "GCC_OPTIMIZATION_LEVEL": "0",
     "SWIFT_WHOLE_MODULE_OPTIMIZATION": "YES",
@@ -26,7 +26,8 @@ _configs = {
     "DEVELOPMENT_LANGUAGE": "en",
     "SWIFT_OPTIMIZATION_LEVEL": "-Onone",
     "OTHER_LDFLAGS": "$(inherited) -all_load",
-    "OTHER_SWIFT_FLAGS": xclist("$(inherited)", "-whole-module-optimization")
+    "OTHER_SWIFT_FLAGS": xclist("$(inherited)"),
+    "EXECUTABLE_NAME": "TodoApp"
 }
 
 def config(key):
@@ -53,9 +54,15 @@ def project_configs():
         get("IPHONEOS_DEPLOYMENT_TARGET"),
         get("APP_BUILD_VERSION"),
         get("APP_BUILD_NUMBER"),
-        get("OTHER_SWIFT_FLAGS", "-DDEBUG")
+        get("OTHER_SWIFT_FLAGS", "-DDEBUG"),
     )
     profile = merge(
+        # get("PRODUCT_BUNDLE_IDENTIFIER"),
+        # get("SDKROOT"),
+        # get("IPHONEOS_DEPLOYMENT_TARGET"),
+        # get("APP_BUILD_VERSION"),
+        # get("APP_BUILD_NUMBER"),
+        # get("OTHER_SWIFT_FLAGS", "-DDEBUG"),
     )
     release = merge(
     )

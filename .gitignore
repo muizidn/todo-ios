@@ -1,5 +1,8 @@
 *.xcworkspace
 *.xcodeproj
+*.dia
+*.d
+*.o
 
 # Created by https://www.gitignore.io/api/buck,xcode,macos,swift,carthage
 # Edit at https://www.gitignore.io/?templates=buck,xcode,macos,swift,carthage

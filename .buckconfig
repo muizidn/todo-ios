@@ -4,8 +4,8 @@
 [swift]
  
 [apple]
-  iphonesimulator_target_sdk_version = 10.0
-  iphoneos_target_sdk_version = 10.0
+  iphonesimulator_target_sdk_version = 11.0
+  iphoneos_target_sdk_version = 11.0
 
 [build]
   threads = 4
