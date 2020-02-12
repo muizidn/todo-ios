@@ -15,8 +15,8 @@ final class TodoViewModel: ViewModelType {
   
   struct Input {
     let load: AnyObserver<Void>
-    let create: AnyObserver<Pb_TodoCreate>
-    let update: AnyObserver<Pb_Todo>
+    let create: AnyObserver<Todo>
+    let update: AnyObserver<Todo>
   }
   
   struct Output {
@@ -27,8 +27,8 @@ final class TodoViewModel: ViewModelType {
   
   init() {
     let sLoad = PublishSubject<Void>()
-    let sCreate = PublishSubject<Pb_TodoCreate>()
-    let sUpdate = PublishSubject<Pb_Todo>()
+    let sCreate = PublishSubject<Todo>()
+    let sUpdate = PublishSubject<Todo>()
     
     let errorTracker = ErrorTracker()
     let activityIndicator = ActivityIndicator()
@@ -39,7 +39,13 @@ final class TodoViewModel: ViewModelType {
       update: sUpdate.asObserver()
     )
     
-    let action = Observable<Void>.merge()
+    let actionCreateTodo = sCreate
+        .debug()
+        .mapToVoid()
+    
+    let action = Observable<Void>.merge(
+        actionCreateTodo
+    )
     
     output = Output(
       action: action.asDriverOnErrorJustComplete(),

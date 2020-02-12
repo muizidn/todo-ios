@@ -1,63 +1,5 @@
-load("//Carthage:carthage.bzl", "combined_deps", "resolve_deps")
+load("//Carthage:carthage.bzl" ,"carthage_deps")
 
-combined_deps(
-  name = "RxSwift",
-  frameworks = ["RxSwift","RxCocoa","RxRelay",]
-)
-
-combined_deps(
-  name = "GRPC",
-  frameworks = ["GRPC","CNIOAtomics","CNIOBoringSSL","CNIOBoringSSLShims","CNIODarwin","CNIOHTTPParser","CNIOLinux","CNIOSHA1","Logging","NIO","NIOConcurrencyHelpers","NIOFoundationCompat","NIOHPACK","NIOHTTP1","NIOHTTP2","NIOSSL","NIOTLS","NIOTransportServices","SwiftProtobuf",]
-)
-
-combined_deps(
-  name = "Texture",
-  frameworks = ["AsyncDisplayKit", "PINCache", "PINRemoteImage", "PINOperation"]
-)
-
-combined_deps(
-  name = "Material",
-  frameworks = ["Material","Motion",]
-)
-
-combined_deps(
-	name = "Router",
-	frameworks = ["Router"]
-)
-
-combined_deps(
-	name = "ViewDSL",
-	frameworks = ["ViewDSL"]
-)
-
-combined_deps(
-	name = "FlexLayout",
-	frameworks = ["FlexLayout"]
-)
-
-combined_deps(
-	name = "JGProgressHUD",
-	frameworks = ["JGProgressHUD"]
-)
-
-combined_deps(
-	name = "IQKeyboardManager",
-	frameworks = ["IQKeyboardManager"]
-)
-
-prebuilt_frameworks = (
-  resolve_deps("Texture") +
-  resolve_deps("GRPC") +
-  resolve_deps("RxSwift") +
-  resolve_deps("ViewDSL") +
-  resolve_deps("FlexLayout") +
-  resolve_deps("Router") +
-  resolve_deps("Material") +
-  resolve_deps("JGProgressHUD") +
-  resolve_deps("IQKeyboardManager")
-)
-
-# Every BUCK file needs at least one library with source.
 apple_library(
         name = "CarthageDeps",
         visibility = [
@@ -65,8 +7,7 @@ apple_library(
         ],
         swift_version = "5",
         configs = {},
-        srcs = glob([
-            # "BuckSupportFiles/**/*.swift",
-        ]),
-        deps = prebuilt_frameworks
+        srcs = [],
+        preferred_linkage="shared",
+        deps = carthage_deps()
 )

@@ -45,7 +45,8 @@ private extension InterfaceBuilderController {
 }
 
 class XibBaseController<C>: BaseController where C: InterfaceBuilderController {
-    private(set) var xibController: C!
+    var xib: C { _xib! }
+    private var _xib: C?
     
     override init(nibName nibNameOrNil: String? = nil, bundle nibBundleOrNil: Bundle? = nil) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -56,7 +57,7 @@ class XibBaseController<C>: BaseController where C: InterfaceBuilderController {
             v.flex.grow(1)
         }
         vc.didMove(toParent: self)
-        xibController = vc
+        _xib = vc
     }
     
     required init?(coder: NSCoder) {

@@ -10,6 +10,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TodoXibController" customModule="TodoBin" customModuleProvider="target">
             <connections>
+                <outlet property="btnAddImage" destination="qCb-8l-Ffz" id="oBe-K8-gOs"/>
+                <outlet property="btnAddTodo" destination="MiK-T4-Fav" id="IOa-Hx-dbW"/>
+                <outlet property="imgImage" destination="yZh-x9-yTb" id="rvx-zw-Lbo"/>
+                <outlet property="switchRemindDay" destination="QPO-2k-9vX" id="Wf2-bA-ah8"/>
+                <outlet property="tfAlarm" destination="sPj-Ri-IAJ" id="P6t-ue-aCb"/>
+                <outlet property="tfPlace" destination="cUo-qw-BOx" id="n7W-cE-C83"/>
+                <outlet property="tfTitle" destination="0aZ-jS-ueR" id="B6J-Wc-z2T"/>
                 <outlet property="view" destination="iN0-l3-epB" id="94E-eI-BCT"/>
             </connections>
         </placeholder>
@@ -145,21 +152,28 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yZh-x9-yTb">
+                    <rect key="frame" x="20" y="540" width="374" height="227"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="2Ej-0k-Kd3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="44e-nR-p4r"/>
                 <constraint firstItem="KVC-h0-4XE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="68a-RO-wYY"/>
+                <constraint firstItem="MiK-T4-Fav" firstAttribute="top" secondItem="yZh-x9-yTb" secondAttribute="bottom" constant="10" id="DHh-py-b1E"/>
                 <constraint firstItem="H1w-go-ubM" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="EC0-TC-hoh"/>
                 <constraint firstItem="H1w-go-ubM" firstAttribute="leading" secondItem="2Ej-0k-Kd3" secondAttribute="trailing" constant="20" id="IQD-Ds-qQ4"/>
                 <constraint firstItem="MiK-T4-Fav" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="60" id="NfM-Xx-6P2"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="MiK-T4-Fav" secondAttribute="bottom" constant="35" id="Vym-l0-vgZ"/>
                 <constraint firstItem="2Ej-0k-Kd3" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="Zwj-OA-OIX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yZh-x9-yTb" secondAttribute="trailing" constant="20" id="dMr-xD-0zc"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="MiK-T4-Fav" secondAttribute="trailing" constant="60" id="dfI-dg-bgU"/>
                 <constraint firstItem="KVC-h0-4XE" firstAttribute="top" secondItem="2Ej-0k-Kd3" secondAttribute="bottom" constant="75" id="h4D-l0-kIb"/>
+                <constraint firstItem="yZh-x9-yTb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="myS-Uz-OOV"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="H1w-go-ubM" secondAttribute="trailing" constant="20" id="ndG-rO-z0P"/>
                 <constraint firstItem="MiK-T4-Fav" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="niJ-fh-0cT"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="KVC-h0-4XE" secondAttribute="trailing" constant="20" id="qhP-nD-o12"/>
+                <constraint firstItem="yZh-x9-yTb" firstAttribute="top" secondItem="KVC-h0-4XE" secondAttribute="bottom" constant="10" id="t5u-NZ-9ko"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="131.8840579710145" y="127.90178571428571"/>

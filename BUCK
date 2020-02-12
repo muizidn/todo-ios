@@ -1,5 +1,6 @@
 load("//Configs:configs.bzl", "app_configs")
 load("//Configs:project.bzl", "config" ,"project_configs", "project_info_plist_substitutions")
+load("//Carthage:carthage.bzl", "carthage_deps")
 
 apple_binary(
   name = 'TodoBin',
@@ -12,7 +13,7 @@ apple_binary(
   ]),
   deps = [
     "//Carthage:CarthageDeps"
-  ]
+  ] + carthage_deps()
 )
 
 apple_resource(
@@ -33,9 +34,8 @@ apple_bundle(
     info_plist = config("INFOPLIST_FILE"),
     info_plist_substitutions = project_info_plist_substitutions(),
     deps = [
-      "//Carthage:CarthageDeps",
       "//:TodoResources"
-    ]
+    ] + carthage_deps()
 )
 
 apple_package(
