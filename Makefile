@@ -18,4 +18,19 @@ clean:
 
 project: clean
 	buck project //:Workspace
+
+openproj: project
 	open TodoApp.xcworkspace
+	
+gendoc:
+	git branch -D gh-pages || true
+	git checkout -b gh-pages
+	bundle install
+	make project
+	bundle exec jazzy
+	git add docs && git commit -m "update docs"
+	echo "Docs generated. Done!"
+	
+pushdoc:
+	git push -d origin gh-pages || true
+	git push origin gh-pages

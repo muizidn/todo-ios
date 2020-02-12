@@ -1,0 +1,16 @@
+author: Muhammad Muizzsuddin
+author_url: http://github.com/muizidn
+github_url: https://github.com/muizidn/shopciety-ios
+copyright: '© 2019 Todo'
+swift_version: 5.1.2
+min_acl: internal
+theme: fullwidth
+exclude:
+  - "pb/*.swift"
+readme: README.md
+abstract: Documentation/*.md
+custom_categories:
+  - name: Scenes
+    children:
+      - TodosController
+      - TodoController
