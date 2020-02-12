@@ -1,0 +1,1678 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+AppDelegate.swift",
+      "line": 6,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+AppDelegate.swift",
+      "line": 9,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 10,
+      "symbol": "BaseController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 11,
+      "symbol": "BaseController.root",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 13,
+      "symbol": "BaseController.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 18,
+      "symbol": "BaseController.layoutUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 21,
+      "symbol": "BaseController.hudBinder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 25,
+      "symbol": "BaseController.viewWillDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 31,
+      "symbol": "InterfaceBuilderController",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 32,
+      "symbol": "InterfaceBuilderController.nibName",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 33,
+      "symbol": "InterfaceBuilderController.bundle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 36,
+      "symbol": "InterfaceBuilderController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 37,
+      "symbol": "InterfaceBuilderController.nibName",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 38,
+      "symbol": "InterfaceBuilderController.bundle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 47,
+      "symbol": "XibBaseController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 48,
+      "symbol": "XibBaseController.xib",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 51,
+      "symbol": "XibBaseController.init(nibName:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+BaseController.swift",
+      "line": 63,
+      "symbol": "XibBaseController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoAppNavigation.swift",
+      "line": 13,
+      "symbol": "__Navigation",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoAppNavigation.swift",
+      "line": 14,
+      "symbol": "__Navigation.viewcontrollerForNavigation()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoAppNavigation.swift",
+      "line": 15,
+      "symbol": "__Navigation.navigate(from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoAppNavigation.swift",
+      "line": 18,
+      "symbol": "MyAppNavigation",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoAppNavigation.swift",
+      "line": 19,
+      "symbol": "MyAppNavigation.viewcontrollerForNavigation(navigation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoAppNavigation.swift",
+      "line": 24,
+      "symbol": "MyAppNavigation.navigate(_:from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoAppNavigation.swift",
+      "line": 30,
+      "symbol": "MyAppNavigation",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoAppNavigation.swift",
+      "line": 31,
+      "symbol": "MyAppNavigation.navigate(to:from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoAppNavigation.swift",
+      "line": 36,
+      "symbol": "TodoAppNavigation",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoAppNavigation.swift",
+      "line": 37,
+      "symbol": "TodoAppNavigation.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoAppNavigation.swift",
+      "line": 44,
+      "symbol": "TodoAppNavigation.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoAppNavigation.swift",
+      "line": 46,
+      "symbol": "TodoAppNavigation.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoNavigation.swift",
+      "line": 11,
+      "symbol": "TodoNavigation",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoNavigation.swift",
+      "line": 12,
+      "symbol": "TodoNavigation.initial",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoNavigation.swift",
+      "line": 15,
+      "symbol": "TodoNavigation",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoNavigation.swift",
+      "line": 16,
+      "symbol": "TodoNavigation.todos",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoNavigation.swift",
+      "line": 17,
+      "symbol": "TodoNavigation.todo",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoNavigation.swift",
+      "line": 20,
+      "symbol": "TodoNavigation",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoNavigation.swift",
+      "line": 21,
+      "symbol": "TodoNavigation.viewcontrollerForNavigation()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoNavigation.swift",
+      "line": 35,
+      "symbol": "TodoNavigation",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+TodoNavigation.swift",
+      "line": 36,
+      "symbol": "TodoNavigation.navigate(from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+ViewModelType.swift",
+      "line": 10,
+      "symbol": "ViewModelType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+ViewModelType.swift",
+      "line": 11,
+      "symbol": "ViewModelType.Input",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+ViewModelType.swift",
+      "line": 12,
+      "symbol": "ViewModelType.Output",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+ViewModelType.swift",
+      "line": 13,
+      "symbol": "ViewModelType.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/App+ViewModelType.swift",
+      "line": 14,
+      "symbol": "ViewModelType.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Closure.swift",
+      "line": 12,
+      "symbol": "Closure.completion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Closure.swift",
+      "line": 17,
+      "symbol": "Closure.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Closure.swift",
+      "line": 21,
+      "symbol": "Closure.update(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Closure.swift",
+      "line": 27,
+      "symbol": "Closure.didSet(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Closure.swift",
+      "line": 33,
+      "symbol": "Closure.voidReturn()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Logger.swift",
+      "line": 3,
+      "symbol": "log",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Logger.swift",
+      "line": 13,
+      "symbol": "Logger.trace(_:metadata:file:function:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Logger.swift",
+      "line": 22,
+      "symbol": "Logger.debug(_:metadata:file:function:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Logger.swift",
+      "line": 31,
+      "symbol": "Logger.info(_:metadata:file:function:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Logger.swift",
+      "line": 40,
+      "symbol": "Logger.notice(_:metadata:file:function:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Logger.swift",
+      "line": 49,
+      "symbol": "Logger.warning(_:metadata:file:function:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Logger.swift",
+      "line": 58,
+      "symbol": "Logger.error(_:metadata:file:function:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Logger.swift",
+      "line": 67,
+      "symbol": "Logger.critical(_:metadata:file:function:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Logger.swift",
+      "line": 82,
+      "symbol": "Logger.Message",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+Logger.swift",
+      "line": 83,
+      "symbol": "Logger.Metadata",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+fnUnaryCall.swift",
+      "line": 7,
+      "symbol": "fnUnaryCall(call:observer:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Cust+fnUnaryCall.swift",
+      "line": 23,
+      "symbol": "rpcUnaryCall(_:req:callOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+NSLayoutConstraint.swift",
+      "line": 11,
+      "symbol": "NSLayoutConstraint.maxLimit",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+NSObject.swift",
+      "line": 3,
+      "symbol": "_Configurable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+NSObject.swift",
+      "line": 4,
+      "symbol": "_Configurable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+NSObject.swift",
+      "line": 6,
+      "symbol": "_Configurable.configure(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+Observable.swift",
+      "line": 5,
+      "symbol": "ObservableType.asDriverOnErrorJustComplete()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+Observable.swift",
+      "line": 9,
+      "symbol": "ObservableType.mapToVoid()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+Observable.swift",
+      "line": 15,
+      "symbol": "ObservableConvertibleType.trackError(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+Observable.swift",
+      "line": 19,
+      "symbol": "ObservableConvertibleType.catchErrorCompleted(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+Observable.swift",
+      "line": 27,
+      "symbol": "ObservableConvertibleType.trackActivity(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+Observable.swift",
+      "line": 33,
+      "symbol": "ObservableConvertibleType.catchErrorJustCompleted()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+UIColor.swift",
+      "line": 11,
+      "symbol": "UIColor.xRomantic",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+UIViewController+Navigation.swift",
+      "line": 11,
+      "symbol": "UIViewController.navigationPush(vc:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Ext+UIViewController+Navigation.swift",
+      "line": 20,
+      "symbol": "UIViewController.navigationPop(animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Helper+ActivityIndicator.swift",
+      "line": 10,
+      "symbol": "ActivityIndicator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Helper+ActivityIndicator.swift",
+      "line": 11,
+      "symbol": "ActivityIndicator.SharingStrategy",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Helper+ActivityIndicator.swift",
+      "line": 20,
+      "symbol": "ActivityIndicator.track(source:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Helper+ActivityIndicator.swift",
+      "line": 29,
+      "symbol": "ActivityIndicator.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Helper+ErrorTracker.swift",
+      "line": 10,
+      "symbol": "ErrorTracker",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Helper+ErrorTracker.swift",
+      "line": 11,
+      "symbol": "ErrorTracker.SharingStrategy",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Helper+ErrorTracker.swift",
+      "line": 16,
+      "symbol": "ErrorTracker.trackError(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Helper+ErrorTracker.swift",
+      "line": 32,
+      "symbol": "ErrorTracker.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 13,
+      "symbol": "TodoXibController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 14,
+      "symbol": "TodoXibController.tfTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 15,
+      "symbol": "TodoXibController.tfPlace",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 16,
+      "symbol": "TodoXibController.switchRemindDay",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 17,
+      "symbol": "TodoXibController.tfAlarm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 18,
+      "symbol": "TodoXibController.btnAddImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 19,
+      "symbol": "TodoXibController.imgImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 20,
+      "symbol": "TodoXibController.btnAddTodo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 23,
+      "symbol": "TodoController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 24,
+      "symbol": "TodoController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 29,
+      "symbol": "TodoController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 48,
+      "symbol": "TodoController.layoutUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 106,
+      "symbol": "TodoController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 107,
+      "symbol": "TodoController.imagePickerController(_:didFinishPickingMediaWithInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 113,
+      "symbol": "Todo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 114,
+      "symbol": "Todo.uuid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 115,
+      "symbol": "Todo.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 116,
+      "symbol": "Todo.place",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 117,
+      "symbol": "Todo.reminder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 118,
+      "symbol": "Todo.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoController.swift",
+      "line": 121,
+      "symbol": "Image",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoViewModel.swift",
+      "line": 12,
+      "symbol": "TodoViewModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoViewModel.swift",
+      "line": 13,
+      "symbol": "TodoViewModel.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoViewModel.swift",
+      "line": 14,
+      "symbol": "TodoViewModel.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoViewModel.swift",
+      "line": 16,
+      "symbol": "TodoViewModel.Input",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoViewModel.swift",
+      "line": 17,
+      "symbol": "TodoViewModel.Input.load",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoViewModel.swift",
+      "line": 18,
+      "symbol": "TodoViewModel.Input.create",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoViewModel.swift",
+      "line": 19,
+      "symbol": "TodoViewModel.Input.update",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoViewModel.swift",
+      "line": 22,
+      "symbol": "TodoViewModel.Output",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoViewModel.swift",
+      "line": 23,
+      "symbol": "TodoViewModel.Output.action",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoViewModel.swift",
+      "line": 24,
+      "symbol": "TodoViewModel.Output.error",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoViewModel.swift",
+      "line": 25,
+      "symbol": "TodoViewModel.Output.activity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodoViewModel.swift",
+      "line": 28,
+      "symbol": "TodoViewModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 13,
+      "symbol": "TodosXibController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 14,
+      "symbol": "TodosController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 15,
+      "symbol": "TodosController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 19,
+      "symbol": "TodosController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 49,
+      "symbol": "TodosController.dataSource",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 70,
+      "symbol": "TodosController.stack",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 72,
+      "symbol": "TodosController.layoutUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 148,
+      "symbol": "__Classify",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 149,
+      "symbol": "__Classify.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 150,
+      "symbol": "__Classify.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 151,
+      "symbol": "__Classify.counter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 153,
+      "symbol": "__Classify.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 170,
+      "symbol": "TodosController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 172,
+      "symbol": "TodosController.getTag(_:idx:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 176,
+      "symbol": "TodosController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 180,
+      "symbol": "TodosController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 189,
+      "symbol": "TodosController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 190,
+      "symbol": "TodosController.tableView(_:heightForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosController.swift",
+      "line": 235,
+      "symbol": "IndexPath.asTag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosViewModel.swift",
+      "line": 12,
+      "symbol": "TodosViewModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosViewModel.swift",
+      "line": 13,
+      "symbol": "TodosViewModel.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosViewModel.swift",
+      "line": 14,
+      "symbol": "TodosViewModel.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosViewModel.swift",
+      "line": 16,
+      "symbol": "TodosViewModel.Input",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosViewModel.swift",
+      "line": 17,
+      "symbol": "TodosViewModel.Input.load",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosViewModel.swift",
+      "line": 18,
+      "symbol": "TodosViewModel.Input.delete",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosViewModel.swift",
+      "line": 21,
+      "symbol": "TodosViewModel.Output",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosViewModel.swift",
+      "line": 22,
+      "symbol": "TodosViewModel.Output.dataSource",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosViewModel.swift",
+      "line": 23,
+      "symbol": "TodosViewModel.Output.action",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosViewModel.swift",
+      "line": 24,
+      "symbol": "TodosViewModel.Output.error",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosViewModel.swift",
+      "line": 25,
+      "symbol": "TodosViewModel.Output.activity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Scene+TodosViewModel.swift",
+      "line": 28,
+      "symbol": "TodosViewModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Backend.swift",
+      "line": 5,
+      "symbol": "ServiceBackend",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Backend.swift",
+      "line": 6,
+      "symbol": "ServiceBackend.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Backend.swift",
+      "line": 13,
+      "symbol": "ServiceBackend.connection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Backend.swift",
+      "line": 25,
+      "symbol": "ServiceBackend.makeClient(_:opts:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Backend.swift",
+      "line": 34,
+      "symbol": "BackendServiceClient",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Backend.swift",
+      "line": 35,
+      "symbol": "BackendServiceClient.init(connection:defaultCallOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+HelloWorld.swift",
+      "line": 7,
+      "symbol": "ServiceHelloWorld",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+HelloWorld.swift",
+      "line": 8,
+      "symbol": "ServiceHelloWorld.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+HelloWorld.swift",
+      "line": 14,
+      "symbol": "ServiceHelloWorld",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+HelloWorld.swift",
+      "line": 17,
+      "symbol": "Reactive.sayHello(name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Todo.swift",
+      "line": 8,
+      "symbol": "ServiceTodo",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Todo.swift",
+      "line": 9,
+      "symbol": "ServiceTodo.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Todo.swift",
+      "line": 15,
+      "symbol": "ServiceTodo",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Todo.swift",
+      "line": 18,
+      "symbol": "Reactive.create(title:description:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Todo.swift",
+      "line": 24,
+      "symbol": "Reactive.list()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Todo.swift",
+      "line": 27,
+      "symbol": "Reactive.get(uuid:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Todo.swift",
+      "line": 32,
+      "symbol": "Reactive.update(uuid:title:description:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/Service+Todo.swift",
+      "line": 39,
+      "symbol": "Reactive.delete(uuid:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+Constraints.swift",
+      "line": 11,
+      "symbol": "UIView.edges(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+EdgeInsets.swift",
+      "line": 31,
+      "symbol": "TinyEdgeInsets",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+EdgeInsets.swift",
+      "line": 34,
+      "symbol": "TinyEdgeInsets",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+EdgeInsets.swift",
+      "line": 36,
+      "symbol": "TinyEdgeInsets.uniform(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+EdgeInsets.swift",
+      "line": 40,
+      "symbol": "TinyEdgeInsets.top(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+EdgeInsets.swift",
+      "line": 44,
+      "symbol": "TinyEdgeInsets.left(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+EdgeInsets.swift",
+      "line": 48,
+      "symbol": "TinyEdgeInsets.bottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+EdgeInsets.swift",
+      "line": 52,
+      "symbol": "TinyEdgeInsets.right(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+EdgeInsets.swift",
+      "line": 56,
+      "symbol": "TinyEdgeInsets.horizontal(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+EdgeInsets.swift",
+      "line": 60,
+      "symbol": "TinyEdgeInsets.vertical(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+EdgeInsets.swift",
+      "line": 65,
+      "symbol": "+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+FlexView.swift",
+      "line": 6,
+      "symbol": "FastFlex",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+FlexView.swift",
+      "line": 7,
+      "symbol": "FastFlex.flex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+FlexView.swift",
+      "line": 8,
+      "symbol": "FastFlex.init(flex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+FlexView.swift",
+      "line": 14,
+      "symbol": "ViewDSLFlex",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+FlexView.swift",
+      "line": 16,
+      "symbol": "ViewDSLFlex.flexWith(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+FlexView.swift",
+      "line": 20,
+      "symbol": "UIView.flexWith(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+FlexView.swift",
+      "line": 25,
+      "symbol": "FlexView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+FlexView.swift",
+      "line": 27,
+      "symbol": "FlexView.put(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+FlexView.swift",
+      "line": 31,
+      "symbol": "FlexView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+FlexView.swift",
+      "line": 47,
+      "symbol": "FlexView.isPaddingWithSafeArea",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+FlexView.swift",
+      "line": 49,
+      "symbol": "FlexView.intrinsicContentSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HStack.swift",
+      "line": 10,
+      "symbol": "HStack",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HStack.swift",
+      "line": 12,
+      "symbol": "HStack.flexWith(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HStack.swift",
+      "line": 18,
+      "symbol": "HStack.isReverse",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 4,
+      "symbol": "HUDType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 5,
+      "symbol": "HUDType.hud(type:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 6,
+      "symbol": "HUDType.hudOnView(type:onView:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 7,
+      "symbol": "HUDType.flash(type:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 8,
+      "symbol": "HUDType.alert(title:message:completion:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 9,
+      "symbol": "HUDType.hide",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 12,
+      "symbol": "HUDType",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 14,
+      "symbol": "HUDType.error(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 18,
+      "symbol": "HUDType.progress(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 28,
+      "symbol": "HUDType.progress(_:title:subtitle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 39,
+      "symbol": "ControllerHUD",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 41,
+      "symbol": "ControllerHUD.init(vc:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 45,
+      "symbol": "ControllerHUD.currentHud",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 47,
+      "symbol": "ControllerHUD.set(hud:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 75,
+      "symbol": "Closure.addActionOK",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 80,
+      "symbol": "HUDType",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 82,
+      "symbol": "HUDType.unimplemented()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 88,
+      "symbol": "ObservableConvertibleType.unimplemented()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 100,
+      "symbol": "HUDType",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 101,
+      "symbol": "HUDType.requireLoginFlash(login:cancelable:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 105,
+      "symbol": "HUDType.requireLoginAlert(login:cancelable:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 129,
+      "symbol": "HUDContentType.progress",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 131,
+      "symbol": "HUDContentType.progressLabel(title:subtitle:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 137,
+      "symbol": "HUDContentType.labeledSuccess(title:subtitle:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 139,
+      "symbol": "HUDContentType.labeledError(title:subtitle:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 147,
+      "symbol": "HUDContentType.label(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+HUDType.swift",
+      "line": 155,
+      "symbol": "HUDContentType.configure(hud:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 12,
+      "symbol": "TableViewReusableCell",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 18,
+      "symbol": "TableViewReusableCell.ViewModel",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 21,
+      "symbol": "TableViewReusableCellViewModel",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 22,
+      "symbol": "TableViewReusableCellViewModel.Cell",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 23,
+      "symbol": "TableViewReusableCellViewModel.beginSubscription(cell:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 26,
+      "symbol": "TableViewReusableCell",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 27,
+      "symbol": "TableViewReusableCell.reuseIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 30,
+      "symbol": "TableViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 32,
+      "symbol": "TableViewCell.stack",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 34,
+      "symbol": "TableViewCell.init(style:reuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 40,
+      "symbol": "TableViewCell.commonInit()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 42,
+      "symbol": "TableViewCell.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 52,
+      "symbol": "TableViewCell.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 57,
+      "symbol": "TableViewCell.intrinsicContentSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 61,
+      "symbol": "TableViewCell.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 63,
+      "symbol": "TableViewCell.prepareForReuse()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 72,
+      "symbol": "UITableView.registerReusableCell(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+ReusableCellProtocol.swift",
+      "line": 75,
+      "symbol": "UITableView.dequeueReusableCell(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+TextField.swift",
+      "line": 10,
+      "symbol": "TextField",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+TextField.swift",
+      "line": 11,
+      "symbol": "TextField.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+VStack.swift",
+      "line": 10,
+      "symbol": "VStack",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+VStack.swift",
+      "line": 12,
+      "symbol": "VStack.flexWith(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios/Sources/Todo/App/View+VStack.swift",
+      "line": 18,
+      "symbol": "VStack.isReverse",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/muis/Documents/go-workspace/src/github.com/muizidn/todo-ios"
+}
